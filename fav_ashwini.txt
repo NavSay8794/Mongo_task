@@ -1,0 +1,15 @@
+
+Query:
+db.class.find(
+	 {
+		"name": "Ashwini" 
+	 },
+	
+	 { 
+		fav_teacher:1 , _id:0
+	 }
+)
+
+
+Result:
+{ "fav_teacher" : "Iris" }

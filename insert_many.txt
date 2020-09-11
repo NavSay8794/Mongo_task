@@ -1,0 +1,57 @@
+db.class.insertMany(
+[
+	{
+		"name": "Ajay",
+		"p_address": "123 Pakhal Road Nashik",
+		"fav_teacher":"Ashwini",
+		"age": "25"
+	},
+
+	{
+		"name": "Vijay",
+		"p_address": "xyz baba nagar Pune",
+		"fav_teacher":"Anitha",
+		"age": "24"
+	},
+
+	{
+		"name": "Ashwini",
+		"p_address": "227 Blecker Street",
+		"fav_teacher":"Iris",
+		"age": "28"
+	},
+
+	{
+		"name": "Arun",
+		"p_address": "chennai",
+		"fav_teacher":"Ashwini",
+		"age": "25"
+	},
+
+	{
+		"name": "Maria",
+		"p_address": "789 Pakhal Road Nashik",
+		"fav_teacher":"Anitha",
+		"age": "26"
+	}
+]
+)
+
+
+Result:
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5f5b97754e913105c898dee5"),
+                ObjectId("5f5b97754e913105c898dee6"),
+                ObjectId("5f5b97754e913105c898dee7"),
+                ObjectId("5f5b97754e913105c898dee8"),
+                ObjectId("5f5b97754e913105c898dee9")
+        ]
+}
+
+{ "_id" : ObjectId("5f5b97754e913105c898dee5"), "name" : "Ajay", "p_address" : "123 Pakhal Road Nashik", "fav_teacher" : "Ashwini", "age" : "25" }
+{ "_id" : ObjectId("5f5b97754e913105c898dee6"), "name" : "Vijay", "p_address" : "xyz baba nagar Pune", "fav_teacher" : "Anitha", "age" : "24" }
+{ "_id" : ObjectId("5f5b97754e913105c898dee7"), "name" : "Ashwini","p_address" : "227 Blecker Street", "fav_teacher" : "Iris", "age" : "28" }
+{ "_id" : ObjectId("5f5b97754e913105c898dee8"), "name" : "Arun", "p_address" : "chennai", "fav_teacher" : "Ashwini", "age" : "25" }
+{ "_id" : ObjectId("5f5b97754e913105c898dee9"), "name" : "Maria", "p_address" : "789 Pakhal Road Nashik", "fav_teacher" : "Anitha", "age" : "26" }

@@ -1,0 +1,31 @@
+
+Query:
+
+db.class.updateOne(
+	{
+		"name": "Vijay",
+	},
+
+	{
+		$set: {
+			"p_address": "123 abc nagar Chennai"
+		}
+	},
+
+	{
+		upsert: true
+	}
+)
+
+
+Result:
+
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+{
+	 "_id" : ObjectId("5f5b97754e913105c898dee6"),
+	 "name" : "Vijay",
+	 "p_address" : "123 abc nagar Chennai",
+	 "fav_teacher" : "Anitha",
+	 "age" : "24"
+}

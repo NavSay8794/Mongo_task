@@ -1,0 +1,13 @@
+
+Query:
+db.class.find({"name": "Arun"}
+
+
+Result:
+{ 
+"_id" : ObjectId("5f5b97754e913105c898dee8"),
+"name" : "Arun",
+"p_address" : "chennai",
+"fav_teacher" : "Ashwini",
+"age" : "25" 
+}

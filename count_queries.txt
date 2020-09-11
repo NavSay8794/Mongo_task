@@ -1,0 +1,20 @@
+Query 1: count of al students
+	db.class.count()
+
+Result 1:
+	5
+
+
+Query 2: count of students who live in chennai
+	db.class.count({"p_address": {"$regex":"Chennai"}})
+
+Result 2:
+	1
+
+
+Query 3: Count the students whose fav teacher is Anitha
+	db.class.count({"fav_teacher":"Anitha"})
+
+Result 3:
+	2
+	
